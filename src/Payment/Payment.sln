@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modular.Payment.Application", "Modular.Payment.Application\Modular.Payment.Application.csproj", "{4021D56D-7C9F-4981-9DE9-7E6C761D7EC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modular.Payment.Domain", "Modular.Payment.Domain\Modular.Payment.Domain.csproj", "{54CAB532-1608-4B59-81AE-9A03C5D8B22D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modular.Payment.Infrastructure", "Modular.Payment.Infrastructure\Modular.Payment.Infrastructure.csproj", "{13930B32-322D-4E91-83F1-C72199D67803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modular.Payment.Module", "Modular.Payment.Module\Modular.Payment.Module.csproj", "{D9F973AD-72C6-4379-AE42-54984C223DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modular.Payment.Acl", "Modular.Payment.Acl\Modular.Payment.Acl.csproj", "{0CF316AC-7BA6-476E-932B-908556CD3B12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{64FEE70A-03B5-4804-BD1D-E49004470E9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A8EB57FD-F304-4A43-B8E3-A348F8A2CAA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modular.Payment.Tests", "Modular.Payment.Tests\Modular.Payment.Tests.csproj", "{B941FF2A-C563-4B21-AC2D-3A3DBBF3A1F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4021D56D-7C9F-4981-9DE9-7E6C761D7EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4021D56D-7C9F-4981-9DE9-7E6C761D7EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4021D56D-7C9F-4981-9DE9-7E6C761D7EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4021D56D-7C9F-4981-9DE9-7E6C761D7EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54CAB532-1608-4B59-81AE-9A03C5D8B22D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54CAB532-1608-4B59-81AE-9A03C5D8B22D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54CAB532-1608-4B59-81AE-9A03C5D8B22D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54CAB532-1608-4B59-81AE-9A03C5D8B22D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13930B32-322D-4E91-83F1-C72199D67803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13930B32-322D-4E91-83F1-C72199D67803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13930B32-322D-4E91-83F1-C72199D67803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13930B32-322D-4E91-83F1-C72199D67803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F973AD-72C6-4379-AE42-54984C223DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F973AD-72C6-4379-AE42-54984C223DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F973AD-72C6-4379-AE42-54984C223DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F973AD-72C6-4379-AE42-54984C223DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF316AC-7BA6-476E-932B-908556CD3B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF316AC-7BA6-476E-932B-908556CD3B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF316AC-7BA6-476E-932B-908556CD3B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF316AC-7BA6-476E-932B-908556CD3B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B941FF2A-C563-4B21-AC2D-3A3DBBF3A1F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B941FF2A-C563-4B21-AC2D-3A3DBBF3A1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B941FF2A-C563-4B21-AC2D-3A3DBBF3A1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B941FF2A-C563-4B21-AC2D-3A3DBBF3A1F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4021D56D-7C9F-4981-9DE9-7E6C761D7EC4} = {A8EB57FD-F304-4A43-B8E3-A348F8A2CAA8}
+		{54CAB532-1608-4B59-81AE-9A03C5D8B22D} = {A8EB57FD-F304-4A43-B8E3-A348F8A2CAA8}
+		{13930B32-322D-4E91-83F1-C72199D67803} = {A8EB57FD-F304-4A43-B8E3-A348F8A2CAA8}
+		{D9F973AD-72C6-4379-AE42-54984C223DC5} = {A8EB57FD-F304-4A43-B8E3-A348F8A2CAA8}
+		{0CF316AC-7BA6-476E-932B-908556CD3B12} = {A8EB57FD-F304-4A43-B8E3-A348F8A2CAA8}
+		{B941FF2A-C563-4B21-AC2D-3A3DBBF3A1F7} = {64FEE70A-03B5-4804-BD1D-E49004470E9B}
+	EndGlobalSection
+EndGlobal
